@@ -1,0 +1,44 @@
+/* DisplayPanel table row styles */
+.table-row-cell {
+    -fx-font-size: 28px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: black;
+}
+
+/* Ortalama üstü komandalar */
+.table-row-cell.above-average {
+    -fx-background-color: #00AA00; /* yaşıl */
+    -fx-text-fill: white;
+}
+
+/* Ortalama altı komandalar */
+.table-row-cell.below-average {
+    -fx-background-color: #AAAAAA; /* boz */
+    -fx-text-fill: black;
+}
+
+/* Qırmızı xətt */
+.table-row-cell.red-line {
+    -fx-border-color: red;
+    -fx-border-width: 4 0 0 0;
+    -fx-border-style: solid;
+}
+
+/* InputPanel TextField */
+.text-field {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+}
+
+/* InputPanel Button */
+.button {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+    -fx-background-color: #0077FF;
+    -fx-text-fill: white;
+}
+
+/* InputPanel update button */
+.button.update-btn {
+    -fx-background-color: #00AA00;
+}

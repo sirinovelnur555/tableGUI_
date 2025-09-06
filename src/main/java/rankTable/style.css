@@ -1,0 +1,37 @@
+.table-row-cell {
+    -fx-font-size: 28px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: black;
+}
+
+.table-row-cell.above-average {
+    -fx-background-color: #00AA00;
+    -fx-text-fill: white;
+}
+
+.table-row-cell.below-average {
+    -fx-background-color: #AAAAAA;
+    -fx-text-fill: black;
+}
+
+.table-row-cell.red-line {
+    -fx-border-color: red;
+    -fx-border-width: 4 0 0 0;
+    -fx-border-style: solid;
+}
+
+.text-field {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+    -fx-background-color: #0077FF;
+    -fx-text-fill: white;
+}
+
+.button.update-btn {
+    -fx-background-color: #00AA00;
+}
